@@ -164,7 +164,7 @@ provide('scrollToSection', scrollToSection)
         </div>
       </section>
 
-      <section id="contact">
+      <section id="contact" class="pb-32">
         <div class="my-12">
           <SectionTitle>
             <template #icon>

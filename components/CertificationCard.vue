@@ -1,6 +1,6 @@
 <template>
     <div
-        class="max-w-md bg-white dark:bg-black border border-gray-800 rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105 hover:shadow-lg">
+        class="max-w-md bg-white dark:bg-black border border-gray-800 rounded-lg shadow-md overflow-hidden">
         <div class="image-container relative h-48 bg-cover bg-center"
             :style="{ backgroundImage: `url('${backgroundImage}')` }">
             <div class="icon-container text-white bg-gray-800 opacity-60 px-5 py-5 rounded-full">

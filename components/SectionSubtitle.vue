@@ -1,6 +1,6 @@
 <template>
     <div class="section-subtitle group relative">
-        <p class="text-lg sm:text-xl text-gray-600 group-hover:text-gray-800 transition duration-300">
+        <p class="text-lg sm:text-xl font-medium text-gray-600 group-hover:text-gray-800 transition duration-300">
             <slot name="subtitle" />
         </p>
         <div 

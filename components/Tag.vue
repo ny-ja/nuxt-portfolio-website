@@ -1,11 +1,10 @@
 <template>
-    <div :class="[
-        'inline-flex items-center border border-gray-800 font-medium rounded shadow-sm transition-shadow duration-200',
-        sizeClasses,
-        hoverEffect,
+    <div :class="[ 
+        'inline-flex items-center border border-gray-800 font-medium rounded shadow-sm transition-shadow duration-200', 
+        sizeClasses, 
     ]">
-        <span v-if="icon" class="mr-1 text-lg">
-            <i :class="icon"></i>
+        <span v-if="icon" class="mr-1">
+            <component :is="icon" class="w-4 h-4" />
         </span>
         <slot>{{ text }}</slot>
     </div>
@@ -21,7 +20,7 @@ const props = defineProps({
         default: "",
     },
     icon: {
-        type: String,
+        type: [Object, Function],
         required: false,
     },
     size: {
@@ -42,5 +41,4 @@ const sizeClasses = computed(() => {
     }
 });
 
-const hoverEffect = "hover:shadow-md";
 </script>
