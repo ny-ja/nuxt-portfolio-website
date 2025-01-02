@@ -2,8 +2,8 @@
 import { ref } from "vue";
 import PrimsDemo from '~/assets/videos/prims-demo.mp4';
 import BpwDemo from '~/assets/videos/bpw-demo.mp4';
-import GithubIcon from '@/components/GithubIcon.vue';
-import GlobeIcon from '@/components/GlobeIcon.vue';
+import GithubIcon from '~/components/icons/GithubIcon.vue';
+import GlobeIcon from '~/components/icons/GlobeIcon.vue';
 
 const projects = ref([
     {

@@ -1,3 +1,7 @@
+<script setup>
+import DownloadIcon from '~/components/icons/DownloadIcon.vue';
+</script>
+
 <template>
     <a href="/files/cv.pdf" download="Johnny_Ermio_CV.pdf"
         class="group relative w-36 sm:w-40 lg:w-44 h-9 sm:h-10 lg:h-11 flex items-center border border-teal-500 bg-teal-500 text-white font-medium cursor-pointer overflow-hidden transition-all duration-300 hover:bg-teal-700 active:bg-teal-800 active:border-teal-800">

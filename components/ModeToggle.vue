@@ -2,6 +2,8 @@
 import { ref, onMounted, computed } from 'vue';
 import { useState } from '#app'; // For Nuxt's useState
 import { useHead } from '@vueuse/head';
+import SunIcon from '~/components/icons/SunIcon.vue';
+import MoonIcon from '~/components/icons/MoonIcon.vue';
 
 // Function to manage theme logic
 function useTheme() {

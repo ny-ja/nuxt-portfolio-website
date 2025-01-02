@@ -1,22 +1,6 @@
-<template>
-    <div
-        class="max-w-md bg-white dark:bg-black border border-gray-800 rounded-lg shadow-md overflow-hidden">
-        <div class="image-container relative h-48 bg-cover bg-center"
-            :style="{ backgroundImage: `url('${backgroundImage}')` }">
-            <div class="icon-container text-white bg-gray-800 opacity-60 px-5 py-5 rounded-full">
-                <ChevronIcon />
-            </div>
-            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50"></div>
-        </div>
-        <div class="p-6">
-            <h2 class="text-xl font-semibold">{{ awardTitle }}</h2>
-            <p class="text-sm text-gray-500 mt-1">Date: {{ date }}</p>
-            <p class="text-sm text-gray-500 mt-1">Issued by: {{ issuingOrganization }}</p>
-        </div>
-    </div>
-</template>
-
 <script setup>
+import ChevronIcon from '~/components/icons/ChevronIcon.vue';
+
 const props = defineProps({
     awardTitle: {
         type: String,
@@ -36,6 +20,24 @@ const props = defineProps({
     }
 });
 </script>
+
+<template>
+    <div
+        class="max-w-md bg-white dark:bg-black border border-gray-800 rounded-lg shadow-md overflow-hidden">
+        <div class="image-container relative h-48 bg-cover bg-center"
+            :style="{ backgroundImage: `url('${backgroundImage}')` }">
+            <div class="icon-container text-white bg-gray-800 opacity-60 px-5 py-5 rounded-full">
+                <ChevronIcon />
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50"></div>
+        </div>
+        <div class="p-6">
+            <h2 class="text-xl font-semibold">{{ awardTitle }}</h2>
+            <p class="text-sm text-gray-500 mt-1">Date: {{ date }}</p>
+            <p class="text-sm text-gray-500 mt-1">Issued by: {{ issuingOrganization }}</p>
+        </div>
+    </div>
+</template>
 
 <style scoped>
 .image-container {

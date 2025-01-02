@@ -1,4 +1,8 @@
 <script setup>
+import FacebookIcon from '~/components/icons/FacebookIcon.vue';
+import GithubIcon from '~/components/icons/GithubIcon.vue';
+import HomeIcon from '~/components/icons/HomeIcon.vue';
+import LinkedinIcon from '~/components/icons/LinkedinIcon.vue';
 const scrollToSection = inject('scrollToSection')
 
 const handleScroll = () => {

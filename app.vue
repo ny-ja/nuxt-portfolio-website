@@ -8,6 +8,9 @@ import DictDiagnosticCertificate from '~/assets/certificates/dict-diagnostic-cer
 import HackathonCertificate from '~/assets/certificates/hackathon-certificate.png';
 import JavaBootcampCertificate from '~/assets/certificates/java-bootcamp-certificate.png';
 import PhpCertificate from '~/assets/certificates/php-certificate.jpg';
+import CertificateIcon from '~/components/icons/CertificateIcon.vue';
+import ContactIcon from '~/components/icons/ContactIcon.vue';
+import ProjectIcon from '~/components/icons/ProjectIcon.vue';
 
 onMounted(() => {
   setTimeout(() => {
