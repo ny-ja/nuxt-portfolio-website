@@ -118,6 +118,7 @@ provide('scrollToSection', scrollToSection)
             <Tag text="Kotlin" size="md" />
             <Tag text="PHP" size="md" />
             <Tag text="Node.js" size="md" />
+            <Tag text="Nuxt.js" size="md" />
             <Tag text="HTML" size="md" />
             <Tag text="CSS" size="md" />
           </div>

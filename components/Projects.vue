@@ -12,7 +12,7 @@ const projects = ref([
         tags: ["Laravel", "Vue.js", "Tailwind CSS", "MySQL", "Inertia.js"],
         video: PrimsDemo,
         githubLink: "https://github.com/ny-ja/prims",
-        websiteLink: "#",
+        websiteLink: "",
     },
     {
         title: "Barangay Poblacion Website",
@@ -20,7 +20,7 @@ const projects = ref([
         tags: ["Laravel", "Vue.js", "Tailwind CSS", "MySQL", "Inertia.js"],
         video: BpwDemo,
         githubLink: "https://github.com/ny-ja/barangay-poblacion",
-        websiteLink: "#",
+        websiteLink: "",
     },
 ]);
 </script>
